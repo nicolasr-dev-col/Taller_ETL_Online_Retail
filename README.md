@@ -1,8 +1,8 @@
-\# Taller ETL - Online Retail
+# Taller ETL - Online Retail
 
 
 
-\## Descripción
+## Descripción
 
 
 
@@ -14,7 +14,7 @@ El proyecto fue desarrollado utilizando Python y Pandas en Google Colab, con el 
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -34,11 +34,11 @@ https://archive.ics.uci.edu/dataset/352/online%2Bretail
 
 
 
-\## Proceso ETL
+## Proceso ETL
 
 
 
-\### Extracción
+### Extracción
 
 
 
@@ -54,7 +54,7 @@ utilizando Python y Pandas.
 
 
 
-\### Transformación
+### Transformación
 
 
 
@@ -62,21 +62,21 @@ Durante esta etapa se realizaron diferentes procesos de limpieza y transformaci�
 
 
 
-\- Eliminación de registros duplicados.
+- Eliminación de registros duplicados.
 
-\- Eliminación de registros con cantidades negativas.
+- Eliminación de registros con cantidades negativas.
 
-\- Eliminación de registros con precios negativos.
+- Eliminación de registros con precios negativos.
 
-\- Tratamiento de valores faltantes en la descripción de los productos.
+- Tratamiento de valores faltantes en la descripción de los productos.
 
-\- Conservación de registros sin CustomerID para evitar pérdida innecesaria de información.
+- Conservación de registros sin CustomerID para evitar pérdida innecesaria de información.
 
-\- Conversión del tipo de dato de CustomerID.
+- Conversión del tipo de dato de CustomerID.
 
-\- Creación de la variable `TotalVenta`.
+- Creación de la variable `TotalVenta`.
 
-\- Creación de las variables `Año`, `Mes` y `Día`.
+- Creación de las variables `Año`, `Mes` y `Día`.
 
 
 
@@ -84,7 +84,7 @@ Después de la transformación se obtuvieron 526.052 registros y 12 variables.
 
 
 
-\### Carga
+### Carga
 
 
 
@@ -100,39 +100,39 @@ Posteriormente se verificó que el archivo generado conservara los 526.052 regis
 
 
 
-\## Herramientas utilizadas
+## Herramientas utilizadas
 
 
 
-\- Python
+- Python
 
-\- Pandas
+- Pandas
 
-\- NumPy
+- NumPy
 
-\- Google Colab
+- Google Colab
 
-\- Git
+- Git
 
-\- GitHub
-
-
-
-\## Archivos del proyecto
+- GitHub
 
 
 
-\- `Taller\_ETL\_Online\_Retail.ipynb` — Notebook donde se desarrolla y documenta el proceso ETL.
-
-\- `Online Retail.xlsx` — Archivo original utilizado como fuente de datos.
-
-\- `online\_retail\_limpio.csv` — Resultado final del proceso de transformación.
-
-\- `README.md` — Documentación general del proyecto.
+## Archivos del proyecto
 
 
 
-\## Referencia sobre ETL
+- `Taller\_ETL\_Online\_Retail.ipynb` — Notebook donde se desarrolla y documenta el proceso ETL.
+
+- `Online Retail.xlsx` — Archivo original utilizado como fuente de datos.
+
+- `online\_retail\_limpio.csv` — Resultado final del proceso de transformación.
+
+- `README.md` — Documentación general del proyecto.
+
+
+
+## Referencia sobre ETL
 
 
 
